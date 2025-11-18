@@ -114,6 +114,16 @@ cp /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist ~/WiFi_Backu
 cp /Library/Preferences/SystemConfiguration/preferences.plist ~/WiFi_Backup/
 ```
 
+### Restoring Wi-Fi Preferences
+
+If something goes wrong or you need to revive your settings: 
+```bash
+cp ~/WiFi_Backup/com.apple.airport.preferences.plist /Library/Preferences/SystemConfiguration/
+cp ~/WiFi_Backup/com.apple.network.identification.plist /Library/Preferences/SystemConfiguration/
+cp ~/WiFi_Backup/NetworkInterfaces.plist /Library/Preferences/SystemConfiguration/
+cp ~/WiFi_Backup/preferences.plist /Library/Preferences/SystemConfiguration/
+```
+
 ## Additional Resources
 
 - [Apple Support: Wireless Diagnostics on your Mac](https://support.apple.com/en-lamr/guide/mac-help/mchlf4de377f/mac?utm_source=chatgpt.com)
