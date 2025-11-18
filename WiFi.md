@@ -101,10 +101,10 @@ Whether your mac is experiencing slow speeds, frequencgt disconnections, or trou
 1. Open Terminal and run:
 ```bash
 mkdir -p ~/WiFi_Backup
-cp /Library/preferences/systemConfiguration/com.apple.airport.preferences.plist ~/WiFi_Backup/
-cp /Library/Preferences/systemConfiguration/com.apple.network.identifcation.plist ~/WiFi_Backup/
-cpn /Library/Preferences/systemConfiguration/NetworkInterfaces.plist ~/WiFi_Backup/
-cp /Library/preferences/systemConfiguration/preferences.plist ~/WiFi_Backup/
+cp /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist ~/WiFi_Backup/
+cp /Library/Preferences/SystemConfiguration/com.apple.network.identifcation.plist ~/WiFi_Backup/
+cp /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist ~/WiFi_Backup/
+cp /Library/Preferences/SystemConfiguration/preferences.plist ~/WiFi_Backup/
 ```
 
 ## Additional Resources
