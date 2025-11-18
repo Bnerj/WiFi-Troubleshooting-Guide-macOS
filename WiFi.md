@@ -6,17 +6,20 @@ Having issues connecting to WiFi-network on your Mac? This guide outlines detail
 - macOS (Monterey, Venture, or later).
 
 ## Steps 
-- This guide focuses on macos systems. Steps may vary slightly depending on your macOS version (Monterey, Ventura, or later.
+- This guide focuses on macOS systems. Steps may vary slightly depending on your macOS version (Monterey, Ventura, or later.
 
 ## Step 1. Check the WiFi Menu 
 1. Click the WiFi icon in the top-right menu bar on your macbook.
+
 2. Ensure the wifi is turned on.
+
 3. Verify that your network is listed and selectable.
 
 <img width="301" height="270" alt="Wifi_menu" src="https://github.com/user-attachments/assets/e0430822-31ba-4425-9c2b-917adcaf1091" />
 
 ## Step 2. Forget and Reconnect to Network
 1. Open **System Settings** located on the dock of your macbook.
+
 2. Open **Network**, then **WiFi**.
 
 <img width="706" height="902" alt="System_Settings" src="https://github.com/user-attachments/assets/ab5312a5-69c6-402b-9bc0-8b88516ce8f0" />
@@ -49,7 +52,7 @@ Having issues connecting to WiFi-network on your Mac? This guide outlines detail
 
 ## If you have a modern macOS, the diagnostic process is a bit different.
 
-1.  Hold down the **option (⌥) key** on your keyboard
+1.  Hold down the **option (⌥) key** on your keyboard.
 
 2. While holding **option**, click the WiFi icon in the menu bar (top-right).
 
@@ -59,7 +62,7 @@ Having issues connecting to WiFi-network on your Mac? This guide outlines detail
 
 <img width="294" height="76" alt="Open_Wireless" src="https://github.com/user-attachments/assets/6f242502-e9b8-46ec-99d8-134728daa8f7" />
 
-4. The **Wireless diagnostics app** will launch. Click **Continue** and follow the on-screen instructions.
+4. The **Wireless Diagnostics App** will launch. Click **Continue** and follow the on-screen instructions.
 
 <img width="617" height="435" alt="Diagnostic_Continued" src="https://github.com/user-attachments/assets/6ae7759f-ae0e-47d6-bcb8-bd0a55dbdee8" />
 
@@ -68,5 +71,8 @@ Having issues connecting to WiFi-network on your Mac? This guide outlines detail
 
 ## Additional Resources
 
-- [Apple Support: WiFi troubleshooting](https://support.apple.com/en-us/HT204051)
+- [Apple Support: Wireless Diagnostics on your Mac](https://support.apple.com/en-lamr/guide/mac-help/mchlf4de377f/mac?utm_source=chatgpt.com)
+
+- [Apple Support: WiFi Network Troubleshooting on Mac](https://support.apple.com/en-lamr/guide/mac-help/mchlp1185/mac?utm_source=chatgpt.com)
+  
 
