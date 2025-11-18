@@ -2,6 +2,11 @@
 
 Having issues connecting to WiFi-network on your Mac? This guide outlines detailed steps to diagnose and fix common WiFi issues.
 
+## Introduction 
+Wi-Fi connectivity issues can be fustrating, especially on macOS where some troubleshooting steps differ from other operating systems. This guide provides a clear, step-by-step process for diagnosing and resolving common Wi-fI problems on Macs, using both built-in macOS tolls and advanced Terminal commands.
+
+Whether your mac is experiencing slow speeds, frequencgt disconnections, or trouble connecting to networks, this guide will help you identify the cause and apply safe, effective solutions, all while keeping your system settings backup and intact. It's designed aspecifically for macOS users, ensuring that each steps matches the unique behavior and utilities of Apple devices. 
+
 ## Operating System
 - macOS (Monterey, Venture, or later).
 
@@ -66,13 +71,48 @@ Having issues connecting to WiFi-network on your Mac? This guide outlines detail
 
 <img width="617" height="435" alt="Diagnostic_Continued" src="https://github.com/user-attachments/assets/6ae7759f-ae0e-47d6-bcb8-bd0a55dbdee8" />
 
-    - 
-5. Once diagnostic are complete, close the app. 
+5. Once diagnostic are complete, close the app.
+
+## macOS Version Notes
+
+- **macOS Monterey (12.x) and Big Sur (11.x)**: All Terminal commands and Wireless Diagnostics steps are fully supported.
+
+- **macOS Ventura (13.x)**: The steps remain the same; however, some Wi-Fi menu locations have moved slightly in System Settings.
+
+- **macOS Sonoma (14.x)**: The `airport` command-line utility has been deprecated. Use `system_profiler SPAirPortDataType` or Wireless Diagnostics for similar information. Some menu labels may differ from earlier versions.
+
+- **General advice**: If a step does not match your macOS version, consult [Apple’s Wireless Diagnostics guide](https://support.apple.com/guide/mac-help/use-wireless-diagnostics-mchlf4de377f/mac) for updated instructions.
+
+**Note:** macOS updates may change menu paths or command-line utilities. If a step does not match your version, consult Apple’s Wireless Diagnostics guide or the GitHub Issues page for updates.
+
+## Maintenance Plan 
+- The steps in this guide are verified for macOS 11-14 (Big sur to Sonoma).
+
+- Guide will be reviewed and updated quarterly, or when Apple releases major updates affecting Wi-Fi settings or command-line utilities.
+
+- Users are encouraged to report any issues via GitHub Issues page to help keep this guide current.
+
+## Backup & Warning 
+
+⚠️ **Warning:** Some troubleshooting steps may remove saved Wi-Fi networks, VPN profiles, or custom settings. Always back up before making changes. 
+
+### Backing up Wi-Fi Preferences 
+
+1. Open Terminal and run:
+```bash
+mkdir -p ~/WiFi_Backup
+cp /Library/preferences/systemConfiguration/com.apple.airport.preferences.plist ~/WiFi_Backup/
+cp /Library/Preferences/systemConfiguration/com.apple.network.identifcation.plist ~/WiFi_Backup/
+cpn /Library/Preferences/systemConfiguration/NetworkInterfaces.plist ~/WiFi_Backup/
+cp /Library/preferences/systemConfiguration/preferences.plist ~/WiFi_Backup/
+```
 
 ## Additional Resources
 
 - [Apple Support: Wireless Diagnostics on your Mac](https://support.apple.com/en-lamr/guide/mac-help/mchlf4de377f/mac?utm_source=chatgpt.com)
 
 - [Apple Support: WiFi Network Troubleshooting on Mac](https://support.apple.com/en-lamr/guide/mac-help/mchlp1185/mac?utm_source=chatgpt.com)
+
+- [Apple Support: macOS Release Notes](https://developer.apple.com/documentation/macos-release-notes)
   
 
